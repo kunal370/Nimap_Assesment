@@ -42,11 +42,11 @@ venv\Scripts\activate
 # Activate (Mac/Linux)
 source venv/bin/activate
 ```
-2 Install dependencies
+### 2 Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4️⃣ Configure MySQL Database
+### 3 Configure MySQL Database
 ```bash
 Edit settings.py and update your DB settings:
 
@@ -61,23 +61,23 @@ DATABASES = {
     }
 }
 ```
-5️⃣ Run migrations
+### 4 Run migrations
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-6️⃣ Create a superuser
+### 5 Create a superuser
 ```bash
 python manage.py createsuperuser
 ```
-7️⃣ Start development server
+### 6 Start development server
 ```bash
 python manage.py runserver
 ```
 
 Server runs at → http://127.0.0.1:8000/
 
-🔑 API Endpoints
+### 🔑 API Endpoints
 
 Clients
 
