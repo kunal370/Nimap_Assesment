@@ -34,12 +34,7 @@ It demonstrates CRUD operations, relationships, authentication, and MySQL integr
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/<your-username>/nimap-rest-api.git
-cd nimap-rest-api
-```
-2️⃣ Create and activate virtual environment
+### 1 Create and activate virtual environment
 ```bash
 python -m venv venv
 # Activate (Windows)
@@ -47,7 +42,7 @@ venv\Scripts\activate
 # Activate (Mac/Linux)
 source venv/bin/activate
 ```
-3️⃣ Install dependencies
+2 Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
