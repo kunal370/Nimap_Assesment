@@ -44,7 +44,7 @@ source venv/bin/activate
 ```
 ### 2 Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install django djangorestframework mysqlclient
 ```
 ### 3 Configure MySQL Database
 ```bash
