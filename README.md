@@ -127,3 +127,24 @@ GET /api/projects/
 - Ganesh → id = 14
 - Neha → id = 15
 - Rohit → id = 13
+
+# ✅ How to Run DB Design
+
+Ensure MySQL service is running
+
+Create a database manually in MySQL:
+```bash
+CREATE DATABASE nimap_db;
+```
+
+Then run:
+```bash
+python manage.py migrate
+```
+# 📌 Notes
+
+Database: MySQL
+
+Authentication: DRF’s session-based auth
+
+Superuser required for admin panel access
