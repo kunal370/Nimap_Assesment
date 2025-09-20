@@ -85,21 +85,21 @@ Server runs at → http://127.0.0.1:8000/
 🔑 API Endpoints
 Clients
 
-GET /api/clients/ → List all clients
+- GET /api/clients/ → List all clients
 
-POST /api/clients/ → Create a client
+- POST /api/clients/ → Create a client
 
-GET /api/clients/{id}/ → Retrieve a client (with projects)
+- GET /api/clients/{id}/ → Retrieve a client (with projects)
 
-PUT /api/clients/{id}/ → Update client
+- PUT /api/clients/{id}/ → Update client
 
-DELETE /api/clients/{id}/ → Delete client
+- DELETE /api/clients/{id}/ → Delete client
 
 Projects
 
-POST /api/clients/{id}/projects/ → Create a project for a client & assign users
+- POST /api/clients/{id}/projects/ → Create a project for a client & assign users
 
-GET /api/projects/ → List projects assigned to logged-in user
+- GET /api/projects/ → List projects assigned to logged-in user
 
 🧪 Example Requests
 Create a Client
