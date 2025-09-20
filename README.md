@@ -103,25 +103,26 @@ GET /api/projects/ → List projects assigned to logged-in user
 
 🧪 Example Requests
 Create a Client
+```bash
 POST /api/clients/
 {
   "client_name": "Company A"
 }
-
+```
 Create a Project
+```bash
 POST /api/clients/17/projects/
 {
   "project_name": "Project A",
   "users": [13, 14]
 }
-
+```
 Get My Projects
+```bash
 GET /api/projects/
+```
+# 👨‍💻 Users in this test
 
-👨‍💻 Users in this test
-
-Ganesh → id = 14
-
-Neha → id = 15
-
-Rohit → id = 13
+- Ganesh → id = 14
+- Neha → id = 15
+- Rohit → id = 13
